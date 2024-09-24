@@ -219,7 +219,7 @@ canvas {
   font-size: 70px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
   #page,
   #page1,
   #page2,
@@ -229,11 +229,11 @@ canvas {
 
   /* navbar */
   #nav > h3 {
-    font-size: 4vh;
+    font-size: 5vh;
   }
 
   #nav > button {
-    font-size: 1.3vh;
+    font-size: 1.5vh;
   }
 
   /* page */
@@ -244,7 +244,7 @@ canvas {
   }
 
   #page > h3 {
-    width: 90%;
+    width: 80%;
     color: #454545;
     top: 75%;
     z-index: 99999;
@@ -294,6 +294,35 @@ canvas {
   }
 
   #page3 > #text3 > h1 {
-    font-size: 7vh;
+    font-size: 6.5vh;
+  }
+  #page3 > #text3 {
+    top: 60%;
+   
+  }
+  
+}
+
+
+@media (max-width: 320px){
+   /* navbar */
+   #nav > h3 {
+    font-size: 4vh;
+  }
+
+  #nav > button {
+    font-size: 1.3vh;
+  }
+
+  #page2 > #text1 > h1 {
+    font-size: 8vh;
+    line-height:1.3;
+  }
+  #page3{
+    height: 50vh;
+  }
+  #page3 > #text3 {
+    top: 30%;
+   
   }
 }
