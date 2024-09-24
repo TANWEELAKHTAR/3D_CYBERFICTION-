@@ -304,7 +304,7 @@ canvas {
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 340px){
    /* navbar */
    #nav > h3 {
     font-size: 4vh;
